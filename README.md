@@ -1,12 +1,15 @@
 # Boiler
 
-Boilerplate code and configuration for the following tools:
+Boilerplate code and configuration for continous deployment using the following tools:
 
 - Next.js
 - TypeScript
 - Radix UI
-- Jest
 - Supabase
+- Jest
+- GitHub Actions
+
+Deployed to [boiler-ruby.vercel.app](https://boiler-ruby.vercel.app/)
 
 # Usage
 
