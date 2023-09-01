@@ -8,6 +8,7 @@ Boilerplate code for **_continous deployment_** using:
 - Supabase
 - Jest
 - GitHub Actions
+- Vercel
 
 Deployed to [boiler-ruby.vercel.app](https://boiler-ruby.vercel.app/)
 
