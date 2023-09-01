@@ -12,7 +12,7 @@ Boilerplate code for **_continous deployment_** using:
 
 Deployed to [boiler-ruby.vercel.app](https://boiler-ruby.vercel.app/)
 
-# Usage
+## Usage
 
 1. Clone repo: `git clone git@github.com:jorahty/boiler.git`
 2. Install dependencies: `npm install`
