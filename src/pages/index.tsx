@@ -11,17 +11,22 @@ import {
 } from '@radix-ui/themes';
 import { ThemeProvider } from 'next-themes';
 
-export default function () {
+export default function Home() {
   return (
     <ThemeProvider attribute="class">
       <Theme>
         <Flex direction="column" gap="2">
           <Flex justify="end">
             <ThemeChanger />
+            <ThemeChanger />
           </Flex>
           <Button>Hey 👋</Button>
+          <Button>Hey 👋</Button>
+          <Button>Hey 👋</Button>
+          <Button>Hey 👋</Button>
+          <Button>Hey 👋</Button>
           <Text>Hello from Radix Themes :)</Text>
-          <Button>Let's go</Button>
+          <Button>Let&apos;s go</Button>
           <Card>
             <Flex gap="3" align="center">
               <Avatar
