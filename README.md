@@ -1,6 +1,6 @@
 # Boiler
 
-Boilerplate code and configuration for **_continous deployment_** using:
+Boilerplate code for **_continous deployment_** using:
 
 - Next.js
 - TypeScript
