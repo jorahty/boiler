@@ -1,5 +1,4 @@
-import '@radix-ui/themes/styles.css';
-import { Container, Flex } from '@radix-ui/themes';
+import { Container, Flex, Heading } from '@radix-ui/themes';
 
 import ThemeChanger from '@/components/ThemeChanger';
 import MessageList from '@/components/message/list';
@@ -12,6 +11,7 @@ export default function Home() {
         <Flex justify="end">
           <ThemeChanger />
         </Flex>
+        <Heading>Welcome to Next.js!</Heading>
         <MessageInput />
         <MessageList />
       </Flex>
