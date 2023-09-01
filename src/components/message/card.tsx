@@ -1,20 +1,22 @@
 import { Avatar, Box, Card, Flex, Text } from '@radix-ui/themes';
 
+import { Message } from './list';
+
 interface Props {
-  message: any;
+  message: Message;
 }
 
 export default function MessageCard({ message }: Props) {
   return (
     <Card>
       <Flex gap="3" align="center">
-        <Avatar fallback="T" />
+        <Avatar fallback={message.name[0]} />
         <Box>
           <Text as="div" size="2" weight="bold">
-            Teodros Girmay
+            {message.name}
           </Text>
           <Text as="div" size="2" color="gray">
-            Engineering
+            {message.content}
           </Text>
         </Box>
       </Flex>
