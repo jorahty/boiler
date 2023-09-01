@@ -9,7 +9,7 @@ export interface Message {
 }
 
 export default function MessageList() {
-  const [messages, setMessages] = useState<Message[]>([
+  const [messages] = useState<Message[]>([
     {
       name: 'Teodros Girmay',
       content: 'Engineering',
