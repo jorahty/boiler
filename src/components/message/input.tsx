@@ -1,5 +1,5 @@
 import { PaperPlaneIcon } from '@radix-ui/react-icons';
-import { Button, Flex, TextField, Tooltip, IconButton } from '@radix-ui/themes';
+import { Flex, TextField, Tooltip, IconButton } from '@radix-ui/themes';
 
 export default function MessageInput() {
   return (
