@@ -8,8 +8,8 @@ export default function MessageList() {
 
   return (
     <Flex direction="column" gap="2">
-      {messages.map((message) => (
-        <MessageCard message={message} />
+      {messages.map((message, index) => (
+        <MessageCard key={index} message={message} />
       ))}
     </Flex>
   );
