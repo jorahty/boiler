@@ -19,7 +19,7 @@ describe('Home', () => {
     );
 
     const heading = screen.getByRole('heading', {
-      name: /welcome to next\.js!/i,
+      name: /welcome!/i,
     });
 
     expect(heading).toBeInTheDocument();

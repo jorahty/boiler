@@ -11,7 +11,7 @@ export default function Home() {
         <Flex justify="end">
           <ThemeChanger />
         </Flex>
-        <Heading>Welcome to Next.js!</Heading>
+        <Heading>Welcome!</Heading>
         <MessageInput />
         <MessageList />
       </Flex>
